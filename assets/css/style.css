@@ -66,3 +66,33 @@ header .more-options{
     color:white;
     font-size: 14px;
 }
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-image{
+    margin-top: 20px;
+}
+
+.search-bar{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-bar input[type=text]{
+    width: 487px;
+    height: 34px;
+}
+
+.search-icon svg{
+    width: 20px;
+}
+
+.filter-gray{
+    filter: invert(74%) sepia(1%) saturate(1746%) hue-rotate(175deg) brightness(88%) contrast(78%);
+}
