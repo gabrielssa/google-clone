@@ -4,7 +4,9 @@ body{
 
 header{
     display:flex;
+    flex-direction: row;
     justify-content: flex-end;
+    align-content: center;
 }
 
 header svg{
@@ -13,8 +15,9 @@ header svg{
 }
 
 header nav{
-    display: block;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 header nav ul{
@@ -24,11 +27,11 @@ header nav ul{
 
 }
 
-header nav,
+/* header nav,
 header .more-options,
 header a{
     flex:auto;
-}
+} */
 
 header nav ul li{
     padding:0px;
@@ -41,15 +44,21 @@ header nav ul{
 }
 
 header .more-options{
-    background-color: orange;
+    margin-left: 15px;
+    margin-right: 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-btn a{
-    width: 100px;
+    display: block;
     padding: 9px 23px;
     text-decoration: none;
     background-color: #2B7DE9;
     border-radius: 5px;
+    color:white;
 }
 
 .login-btn a:visited{
