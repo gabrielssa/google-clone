@@ -115,3 +115,14 @@ header .more-options{
     margin-right: 10px;
     margin-left: 10px;
 }
+
+.search-controls{
+    margin-top: 30px;
+}
+
+.search-controls input{
+    padding: 10px 16px;
+    border:none;
+    background-color: #f8f8f8;
+    margin-right: 8px;
+}
