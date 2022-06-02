@@ -104,6 +104,7 @@ header .more-options{
     height: 34px;
     outline: 0;
     border: none;
+    transition: all 500ms linear;
 }
 
 .search-icon svg{
@@ -177,19 +178,30 @@ footer{
     white-space: nowrap;
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
     .search-bar input[type=text]{
         width: 70vw;
         height: 34px;
         outline: 0;
         border: none;
+        transition: all 0s linear;
     }
 
-    footer{
-        font-size: 1.2vw;
+    .footer-useful-links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .footer-country{
-        font-size: 1.2vw;
+    .footer-useful-links .block2{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 450px){
+    .footer-country,
+    .footer-useful-links,
+    header{
+        font-size: 2.5vw;
     }
 }
